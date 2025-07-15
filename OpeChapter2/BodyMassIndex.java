@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class FiveSpaced {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter weightinKilograms: ");
+        int number1 = scanner.nextInt();
+ 	System.out.print("Enter HeightInMeters: ");
+        int number2 = scanner.nextInt();
+ 	System.out.print("Enter HeightInMeters: ");
+        int number3 = scanner.nextInt();
+	
+	double bmi = ((number1)/(number2 * number3));
+
+          System.out.println("BMI is equal"+ "  " + bmi);
+    }
+}
