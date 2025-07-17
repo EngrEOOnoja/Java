@@ -1,20 +1,20 @@
-import java.util.Scanner;
-public class PowerNumber{
-public static void main(String[] args){
-Scanner input = new Scanner(System.in);
-System.out.print("Enter 1st Digit  : ");
-int digit1 = input.nextInt();
-System.out.print("Enter 2nd DIgit : ");
-int digit2 = input.nextInt();
+number0 = 0
+number1 = 1
+number2 = 2
+number3 = 3 
+number4 = 4
+number5 = 5
+square0 = number0 * number0
+square1 = number1 * number1
+square2 = number2 * number2
+square3 = number3 * number3
+square4 = number4 * number4
+square5 = number5 * number5
+cube0 = square0 * number0
+cube1 = square1 * number1
+cube2 = square2 * number2
+cube3 = square3 * number3
+cube4 = square4 * number4
+cube5 = square5 * number5 
 
-int power = digit1 ^ digit2;
-
-System.out.println("The power is : " + power);
-
-	}
-}
-
-
-
-
-
+print('number'        'square'        'cube')

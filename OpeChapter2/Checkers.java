@@ -1,13 +1,6 @@
-public class Checkers {
- public static void main(String[] args) {
-  System.out.println("* * * * * * * * ");
-  System.out.println(" * * * * * * * * ");
-  System.out.println("* * * * * * * * ");
-  System.out.println(" * * * * * * * * ");
-  System.out.println("* * * * * * * * ");
-  System.out.println(" * * * * * * * * ");
-  System.out.println("* * * * * * * * ");
-  System.out.println(" * * * * * * * * ");
- 
-	}
-}
+x = 2
+y = 3
+print('x =', x)
+print('Value of', x, '+', x, 'is', (x + x))
+print('x =')
+print((x + y), '=', (y + x))
