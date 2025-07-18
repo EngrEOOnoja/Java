@@ -16,15 +16,15 @@ Scanner input = new Scanner(System.in);
 System.out.print("Enter Duration in years : ");
 int duration = input.nextInt();
 System.out.print("Enter intrest rate in years : ");
-int rate = input.nextInt();
+double rate = input.nextInt();
 System.out.print("Enter Principal : ");
 int principal = input.nextInt();
-int rate in months = (rate/100)/12;
-int durationinmonths = duration/12;
+double rateinmonths = (rate/100)/12;
+double durationinmonths = duration*12;
 
 
-int monthlypayment = principal*( rate in months * ((1 + rate in months) Math.pow( durationinmonths)) / (((1 + rate in months) Math.pow(durationinmonths))-1);
+double monthlypayment = principal* (rateinmonths * ( Math.pow((1 + rateinmonths), durationinmonths)) / (( Math.pow((1 + rateinmonths), durationinmonths))-1));
 
-	System.out.print("The Monthly Intrest Payment is  : " + monthlypayment);
+	System.out.printf("The Monthly Intrest Payment is   : %.6f%n", monthlypayment);
 }
 }

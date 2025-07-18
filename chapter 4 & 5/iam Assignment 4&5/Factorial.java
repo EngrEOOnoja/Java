@@ -1,23 +1,11 @@
-number1 = input()
-number2 = input()
-number3 = input()
+public class ForloopTriangletry {
+public static void main (String[] args) {
 
-sum = number1 + number2 + number3
-print(sum)
-average = sum / 3
-product = number1 * number2 * number3
-
-number1 = smallest
-if(number2 < smallest):
- smallest = number2
-if(number3 < smallest):
- smallest = number3
-print(smallest)
-
-
-number1 = largest
-if(number2 > largest):
- largest = number2
-if(number3 > largest):
- largest = number3
-print(largest)
+for(int i = 1; i<=6; i++){
+	for (int j = i; j<=6; i++){
+	System.out.print(j);
+		}
+	//System.out.println(" ");
+	}	
+}  
+}
