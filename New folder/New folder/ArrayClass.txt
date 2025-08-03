@@ -1,0 +1,22 @@
+public class ArrayClass{
+	public static void main(String[] args){
+		int[] scores = new int[5];
+		
+		
+		scores[0]=50;
+		scores[1]=43;
+		scores[2]=23;
+		scores[3]=73;
+		scores[4]=26;
+	counter = 0;
+	for(int i = 0; i < 5; ){
+	system.out.println(scores[i])
+
+	counter = counter + 2;
+		
+	}
+	
+	
+	}
+
+}

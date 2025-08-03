@@ -1,12 +1,10 @@
 import java.util.Scanner;
-public class NokiaPhone3310Forward {
+public class Nokia3310v3Forward {
 public static void main (String[] args){
 
-mainMenu();
-}
+	 }
 
 public static void mainMenu(){
-
 	System.out.println( """
 
 	Welcome to your Nokia Phone.
@@ -27,14 +25,9 @@ public static void mainMenu(){
 	11. Clock.
 	12. Profiles.
 	13. Sim Service.
-	14.
 
 
 	0. Exit.
-	""");  
+	"""); 
 
-
-
-
-}
 }

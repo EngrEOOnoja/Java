@@ -1,0 +1,20 @@
+public static class {
+public static void main (String [] args){
+Scanner input = new Scanner(System.in);
+
+}
+}
+
+public static  get_password(int digit, String word) — Prompts and retrieves password input.
+
+
+
+2. check_complexity(password) — Returns:
+○ Number of alphabetic characters
+○ Number of numeric characters
+3. evaluate_strength(alpha_count, num_count) — Returns
+strength rating based on the counts:
+○ Weak: Fewer than 5 letters or no digits
+○ Moderate: 5–8 letters, at least 1 digit
+○ Strong: More than 8 letters and at least 2 digits
+4. main() — Manages flow of inputs, analysis, and output

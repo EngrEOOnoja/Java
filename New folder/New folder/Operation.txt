@@ -1,0 +1,19 @@
+//Write a java program that promts the user to enter a number, the type of operation(+,-,*,/) and a seecond number The program must execute the required operation and display the result.
+
+import java.util.Scanner;
+public class Operation{
+public static void main (String[] args){
+Scanner input = new Scanner(System.in);
+System.out.print("Enter operand (+,-,/,*) :");
+int operand = input.nextInt();
+System.out.print("Enter First Digit : ");
+int digit1 = input.nextInt();
+System.out.print("Enter Second Digit : ");
+int digit2 = input.nextInt();
+
+System.out.print(digit1, operand, digit2);
+
+
+}
+
+}

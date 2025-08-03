@@ -26,13 +26,77 @@ public static void main (String[] args){
 
 
 	0. Exit.
-	""");  
+	"""); 
 	
-	NokiaPhonebook();
-
-		
-
 	
+	case 2 :
+	System.out.println("""
+	1.write messages
+	2. inbox.
+	3. outbox.
+	4. picture messages
+	5. Templates.
+	6. Smileys.
+	7. Message Settings
+	8. info service
+	9. Voice mailbox number
+	10. Service command editor	
+	""");
+
+	int messagesetting = input.nextInt();
+	switch(messagesetting){
+	
+		case 1: 
+	System.out.println("Write message");break;
+		case 2:
+	System.out.println("Indox");break;
+		case 3:
+	System.out.println("Outbox");break;
+		case 4:
+	System.out.println("Picture mressages");break;
+		case 5 :
+	System.out.println("Templates");break;
+		case 6 :
+	System.out.println("Smileys");break;
+		case 7 :
+	System.out.println(""" 
+	   1 : set1
+	   2 : common """); 
+
+ 	int setting = input.nextInt();
+	switch(setting) {
+	 	case 1 :
+	System.out.println(""" 
+		1 : Message centre number
+		2 : Message sent as
+		3 : Message validity
+		""");
+	int messagecentre = input.nextInt();
+	switch(messagecentre){
+		case 1:
+	System.out.println("Message centre number");break; 
+		case 2:
+	System.out.println("Message sent as");break;
+		case 3:
+	System.out.println("Message centre number");break;
+	}
+
+		case 2 :
+	System.out.println(""" 
+		 1 : Delivery reports
+		 2 : Reply via same centre
+		 3 : Character support
+		"""); 
+		int deliveryreport = input.nextInt();
+		switch(deliveryreport){
+		case 1:
+		System.out.println("Delivery reports");break;
+		case 2 :
+		System.out.println("Reply via same centre");break;
+		case 3 :
+		System.out.println("Character support");}break;
+	 }default : System.out.println("Enter Correct Input");
+	}break;
 
 		case 3: 
 	System.out.println("Chat"); 
@@ -261,146 +325,5 @@ public static void main (String[] args){
 	}
 
 	}
-
-	public static void NokiaPhonebook(){
-	Scanner input = new Scanner(System.in);
-	int phonebook = input.nextInt();
-	switch(phonebook){
-	case 1 :
-	System.out.println("""
-	1 : Search 
-	2 : Service Number
-	3 : Add Name
-	4 : Erase
-	5 : Edit
-	6 : Assign tone
-	7 : Send Bcard
-        8 : Options
-	9 : Speed dails
-	10 : Voice tags 
-	""");
-	
-	int search = input.nextInt();
-	switch(search) {
-	case 1 : 
-	System.out.println("Search");break;
-
-	case 2 :
-	System.out.println("Service Number");
-	 break;
-	
-	case 3 :
-	System.out.println("Add Name");
-	 break;
-
-	case 4 :
-	System.out.println("Erase");
-	 break;
-
-	case 5 :
-	System.out.println("Edit");
-	 break;
-
-	case 6 :
-	System.out.println("Assign tone");
-	 break;
-	
-	case 7 :
-	System.out.println("Send Bcard");
-	 break;
-
-	case 8 :
-	System.out.println("""
-	case 1:Type of view
-	case 2: Memory status
-	""");
-	int type = input.nextInt();
-	switch(type){
-		case 1:
-	System.out.println("Type of view");break;
-		case 2:
-	System.out.println("Memory status");break;
-	default : System.out.println("Enter Correct Input");
-	} break;
-	
-
-	case 9 :
-	System.out.println("Speed Dial");
-	 break;
-	case 10 :
-	System.out.println("Voice tags");
-	 break;
-	default : System.out.println("Enter Correct Input");}
-		}
-		case 2 :
-	System.out.println("""
-	1.write messages
-	2. inbox.
-	3. outbox.
-	4. picture messages
-	5. Templates.
-	6. Smileys.
-	7. Message Settings
-	8. info service
-	9. Voice mailbox number
-	10. Service command editor	
-	""");
-
-	int messagesetting = input.nextInt();
-	switch(messagesetting){
-	
-		case 1: 
-	System.out.println("Write message");break;
-		case 2:
-	System.out.println("Indox");break;
-		case 3:
-	System.out.println("Outbox");break;
-		case 4:
-	System.out.println("Picture mressages");break;
-		case 5 :
-	System.out.println("Templates");break;
-		case 6 :
-	System.out.println("Smileys");break;
-		case 7 :
-	System.out.println(""" 
-	   1 : set1
-	   2 : common """); 
-
- 	int setting = input.nextInt();
-	switch(setting) {
-	 	case 1 :
-	System.out.println(""" 
-		1 : Message centre number
-		2 : Message sent as
-		3 : Message validity
-		""");
-	int messagecentre = input.nextInt();
-	switch(messagecentre){
-		case 1:
-	System.out.println("Message centre number");break; 
-		case 2:
-	System.out.println("Message sent as");break;
-		case 3:
-	System.out.println("Message centre number");break;
-	}
-
-		case 2 :
-	System.out.println(""" 
-		 1 : Delivery reports
-		 2 : Reply via same centre
-		 3 : Character support
-		"""); 
-		int deliveryreport = input.nextInt();
-		switch(deliveryreport){
-		case 1:
-		System.out.println("Delivery reports");break;
-		case 2 :
-		System.out.println("Reply via same centre");break;
-		case 3 :
-		System.out.println("Character support");}break;
-	 }default : System.out.println("Enter Correct Input");
-	}break;
-
-
 }
 
